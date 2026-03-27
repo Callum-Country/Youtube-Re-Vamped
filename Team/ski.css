@@ -1,0 +1,100 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #4a5568;
+    margin-bottom: 1.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.paragraph {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #718096;
+    margin-bottom: 2rem;
+    font-weight: 400;
+}
+
+.warning {
+    color: #e53e3e;
+    font-weight: 700;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    background: rgba(229, 62, 62, 0.1);
+    padding: 1rem;
+    border-radius: 10px;
+    border: 2px solid #e53e3e;
+}
+
+.teachers h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+    color: #2d3748;
+    margin-bottom: 1rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+ul li {
+    background: #f7fafc;
+    margin: 0.5rem 0;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    font-size: 1.1rem;
+    color: #4a5568;
+    transition: transform 0.2s ease;
+}
+
+ul li:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 600px) {
+    .container {
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .heading {
+        font-size: 2rem;
+    }
+    .warning {
+        font-size: 1.2rem;
+    }
+}
